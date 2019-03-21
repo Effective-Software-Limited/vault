@@ -15,12 +15,12 @@ import (
 	"time"
 	"unicode"
 
+	"github.com/Effective-Software-Limited/vault/helper/consts"
+	"github.com/Effective-Software-Limited/vault/helper/parseutil"
 	"github.com/hashicorp/errwrap"
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
 	retryablehttp "github.com/hashicorp/go-retryablehttp"
 	rootcerts "github.com/hashicorp/go-rootcerts"
-	"github.com/hashicorp/vault/helper/consts"
-	"github.com/hashicorp/vault/helper/parseutil"
 	"golang.org/x/net/http2"
 	"golang.org/x/time/rate"
 )

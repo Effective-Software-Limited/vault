@@ -8,13 +8,13 @@ import (
 	"io/ioutil"
 	"os"
 
+	"github.com/Effective-Software-Limited/vault/helper/hclutil"
 	"github.com/hashicorp/errwrap"
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
 	multierror "github.com/hashicorp/go-multierror"
 	rootcerts "github.com/hashicorp/go-rootcerts"
 	"github.com/hashicorp/hcl"
 	"github.com/hashicorp/hcl/hcl/ast"
-	"github.com/hashicorp/vault/helper/hclutil"
 	"github.com/mitchellh/mapstructure"
 )
 

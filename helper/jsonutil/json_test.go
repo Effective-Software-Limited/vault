@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/vault/helper/compressutil"
+	"github.com/Effective-Software-Limited/vault/helper/compressutil"
 )
 
 func TestJSONUtil_CompressDecompressJSON(t *testing.T) {

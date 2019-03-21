@@ -6,9 +6,9 @@ import (
 	"io"
 	"time"
 
+	"github.com/Effective-Software-Limited/vault/helper/jsonutil"
+	"github.com/Effective-Software-Limited/vault/helper/parseutil"
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/helper/jsonutil"
-	"github.com/hashicorp/vault/helper/parseutil"
 )
 
 // Secret is the structure returned for every secret within Vault.

@@ -8,8 +8,8 @@ import (
 	"net/url"
 	"os"
 
+	"github.com/Effective-Software-Limited/vault/helper/jsonutil"
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/helper/jsonutil"
 )
 
 const (

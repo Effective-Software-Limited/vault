@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/Effective-Software-Limited/vault/helper/compressutil"
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/helper/compressutil"
 )
 
 // Encodes/Marshals the given object into JSON

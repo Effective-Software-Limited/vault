@@ -1,4 +1,4 @@
-module github.com/hashicorp/vault
+module github.com/Effective-Software-Limited/vault
 
 go 1.12
 
